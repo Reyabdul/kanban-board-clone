@@ -1,13 +1,16 @@
-//Will be using 
-
+import React from 'react';
 import './App.css';
+import Kanban from './components/Kanban';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
-  );
+    return (
+        <div style={{ padding: '50px' }}>
+            <h1 style={{ marginBottom: '20px' }}>
+                Kanban UI
+            </h1>
+            <Kanban />
+        </div>
+    )
 }
 
-export default App;
+export default App
